@@ -14,7 +14,7 @@ for (z = 48; z <= 57; z++)
 putchar (z);
 }
 
-putchar ("\n");
+putchar ('\n');
 
 return (0);
 
