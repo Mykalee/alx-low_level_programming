@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * print_sign - return 0letter not lowercase, return 1 letter lowercase
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
  *
- * @n: the int to print
+ *@n: the int to print
  * Return: Always 0.
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 if (n > 0)
+
 {
 _putchar ('+');
 return (1);
