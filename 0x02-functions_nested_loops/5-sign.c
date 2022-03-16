@@ -18,13 +18,13 @@ int print_sign(int r)
 		return (0);
 	}
 	else if (r < 0)
-	{	
+	{
 		_putchar('-');
 		return (-1);
 	}
 	else
 	{
 		_putchar('-');
-		return('/');
+		return ('/');
 	}
 }
